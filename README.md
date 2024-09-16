@@ -27,27 +27,30 @@ Follow these steps to set up and run the project on your local machine:
 
    ```bash
    git clone https://github.com/yourusername/lagrange-interpolation-solver.git
-Navigate to the Project Directory:
+2. **Navigate to the Project Directory**:
 
 Go into the project's folder:
 
 bash
 Copy code
 cd lagrange-interpolation-solver
-Install Dependencies:
+
+3. **Install Dependencies**:
 
 If your project requires any Node.js packages, install them using npm:
 
 bash
 Copy code
 npm install
-Create the testcases Folder:
+
+4.**Create the testcases Folder**:
 
 Inside the root of the project directory, create a new folder named testcases:
 
 bash
 Copy code
 mkdir testcases
-Add JSON Files:
+
+5. **Add JSON Files**:
 
 Place your JSON test case files inside the testcases folder. Each file should contain the test data for the polynomial calculations.
