@@ -6,22 +6,48 @@ This project implements Lagrange Interpolation to find the polynomial that passe
 
 ## Features
 
-- **Decoding Y values**: Supports values in various bases (e.g., binary, hexadecimal, etc.).
+- **Decoding Y values**: Supports values in various bases (e.g., decimal, hexadecimal, etc.).
 - **Lagrange Interpolation**: Finds the polynomial based on the input roots.
 - **Evaluate Polynomial**: Evaluates the polynomial to retrieve the constant term.
 - **Multiple Test Cases**: Reads and processes multiple test cases from JSON files.
 
-## Getting Started
+## Prerequisites
 
-### Prerequisites
+To run this project, you'll need:
 
-- **Node.js**: Make sure you have Node.js installed on your machine.
-- **Python** (for verification or running the Python version): You can use Python to cross-verify the calculations.
-- **fs (File System)**: Node.js's native `fs` module is used to read the JSON files containing the test cases.
+- **Node.js**: Ensure that Node.js is installed on your machine. You can download it from [here](https://nodejs.org/).
 
-### Installation
+## Installation and Setup
 
-1. Clone this repository to your local machine:
+Follow these steps to set up and run the project on your local machine:
+
+1. **Clone the Repository**:
+   
+   First, clone this repository to your local machine using Git:
 
    ```bash
    git clone https://github.com/yourusername/lagrange-interpolation-solver.git
+Navigate to the Project Directory:
+
+Go into the project's folder:
+
+bash
+Copy code
+cd lagrange-interpolation-solver
+Install Dependencies:
+
+If your project requires any Node.js packages, install them using npm:
+
+bash
+Copy code
+npm install
+Create the testcases Folder:
+
+Inside the root of the project directory, create a new folder named testcases:
+
+bash
+Copy code
+mkdir testcases
+Add JSON Files:
+
+Place your JSON test case files inside the testcases folder. Each file should contain the test data for the polynomial calculations.
